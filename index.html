@@ -1,70 +1,224 @@
+
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta name="google-site-verification" content="j6Th2sx2V-NMibcWwsXfVA6LQvgYGkCPDIuwLoOXQuE" />
-<title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albin Saji </title>
+
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-    <body>
+<body>
 
-<div class="sidebar">
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#certificates">Certificates</a>
-    <a href="#contact">Contact</a>
-</div>
+    <div class="title"> Albin <span>Saji</span></div>
 
-<div class="main">
+    <div class="container">
 
-<section id="about">
-    <h1>Albin Saji</h1>
-    <p>BCA Student | Aspiring Software Developer</p>
-    <p>I am a second-year BCA student interested in Java, web development and machine learning.</p>
-</section>
+        <div class="sidebar">
+            <a href="#about" class="active">ABOUT ME</a>
+            <a href="#services">SERVICES</a>
+            <a href="#resume">RESUME</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#links">CERTIFICATES & LINKS</a>
+            <a href="#contact">CONTACT</a>
+        </div>
 
-<section id="skills">
-    <h2>Skills</h2>
-    <ul>
-        <li>Java</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>C</li>
-    </ul>
-</section>
+        <div class="content">
 
-<section id="projects">
-    <h2>Projects</h2>
+            <section id="about">
+                <div class="section-label">// ABOUT ME</div>
 
-    <div class="card">
-        <h3>Portfolio Website</h3>
-        <p>Created a personal portfolio website using HTML, CSS and JavaScript.</p>
+                <div class="hero">
+                    <div class="profile-box">
+                        <img src="images/Profile.jpg.jpeg" alt="Profile Photo">
+                        <div class="tag">BCA STUDENT</div>
+                    </div>
+
+                    <div>
+                        <h1> BCA Student & Web Developer</h1>
+
+                        <p>
+                            I am a  BCA student passionate about Java, Web Development,
+                            Machine Learning and Cloud Computing. I enjoy creating modern websites,
+                            learning new technologies and building projects that improve my skills.
+                        </p>
+
+                        <div class="btns">
+                            <a href="images/RESUME.jpg.docx" class="btn" target="_blank">Download Resume</a>
+                            <a href="https://github.com/Alby2442" class="btn" target="_blank">GitHub</a>
+                            <a href="https://linkedin.com/in/albin-saji-273686319" class="btn" target="_blank">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stats">
+                    <div class="stat-box">
+                        <h2>2+</h2>
+                        <p>Projects Completed</p>
+                    </div>
+
+                    <div class="stat-box">
+                        <h2>5+</h2>
+                        <p>Certificates</p>
+                    </div>
+
+                    <div class="stat-box">
+                        <h2>2+</h2>
+                        <p>Years Learning</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="services">
+                <div class="section-label">// SERVICES</div>
+                <h1 class="heading">What I Do</h1>
+
+                <div class="services">
+                    <div class="service-card">
+                        <div class="service-number">01</div>
+                        <div>
+                            <h3>Web Development</h3>
+                            <p>I create modern, responsive and professional websites using HTML, CSS, JavaScript and Bootstrap.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-number">02</div>
+                        <div>
+                            <h3>Java Programming</h3>
+                            <p>I develop beginner-friendly Java programs, mini projects and object-oriented applications.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-number">03</div>
+                        <div>
+                            <h3>Machine Learning</h3>
+                            <p>I am learning machine learning concepts and creating simple projects using Python.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="resume">
+                <div class="section-label">// RESUME</div>
+                <h1 class="heading">Education & Experience</h1>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h3>Bachelor of Computer Applications (BCA)</h3>
+                        <span>2024 - Present</span>
+                        <p>Mahatma Gandhi University</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h3>Portfolio Website Project</h3>
+                        <span>2025</span>
+                        <p>Created a professional personal portfolio website using HTML, CSS and JavaScript.</p>
+                        <h3>Portfolio Website Project</h3>
+                        <span>2026</span>
+                        <p>I develop beginner-friendly Java programs, mini projects and object-oriented applications.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills">
+                <div class="section-label">// SKILLS</div>
+                <h1 class="heading">My Skills</h1>
+
+                <div class="skills">
+                    <div class="skill">HTML (75%)</div>
+                    <div class="skill">CSS (25%)</div>
+                    <div class="skill">JavaScript (50%)</div>
+                    <div class="skill">Java (80%)</div>
+                    <div class="skill">GitHub (90%)</div>
+                    <div class="skill">MySQL (75%)</div>
+                    <div class="skill">C++ (50%)</div>
+                    <div class="skill">python (75%)</div>
+                    <div class="skill">C (75%)</div>
+                </div>
+            </section>
+
+
+            <section id="projects">
+                <div class="section-label">// PROJECTS</div>
+                <h1 class="heading">My Projects</h1>
+
+                <div class="links">
+
+                        <a href="images/GUI.pdf" class="link-card" target="_blank">
+                            <h3>Student Management System</h3>
+                            <p>
+                                 Java + My SQL  project using netbeans for managing student details, marks and records.
+                                 Click to open projects preview
+                            </p>
+                        </a>
+
+                        <a href="https://github.com/Alby2442/student-management-system" class="link-card" target="_blank">
+                          <h3>Student Management System GitHub</h3>
+                          <p>
+                                Click to view the complete Java NetBeans source code on GitHub.
+                          </p>
+                        </a>
+
+                        <a href="images/website.pdf" class="link-card" target="_blank">
+                            <h3>Personal Portfolio Website</h3>
+                            <p>
+                                    My personal portfolio website created using HTML and CSS.
+                                    Click to open the project screenshots.
+                            </p>
+                        </a>
+
+                        <a href="https://github.com/yourusername/portfolio-website" class="link-card" target="_blank">
+                            <h3>Portfolio Website GitHub</h3>
+                            <p>
+                                    Click to view the complete portfolio website source code on GitHub.
+                            </p>
+                        </a>
+
+                </div>
+            </section>
+            
+
+            <section id="links">
+                <div class="section-label">// CERTIFICATES & LINKS</div>
+                <h1 class="heading">Certificates & Profiles</h1>
+
+                <div class="links">
+                    <a href="images/pythonbasic.jpg" class="link-card" target="_blank">
+                        <h3>Python Basic Certificate</h3>
+                        <p>Click to open Python certificate.</p>
+                    </a>
+
+                    <a href="images/ComputerHardwarebasics.jpeg" class="link-card" target="_blank">
+                        <h3>Computer Hardware Basics</h3>
+                        <p>Click to open Computer Hardware Basics certificate.</p>
+                    </a>
+                    <a href="images/Networkingbasics.jpeg" class="link-card" target="_blank">
+                        <h3>Networking Basics</h3>
+                        <p>Click to open Networking Basics certificate.</p>
+                    </a>
+                    <a href="images/ML webinar.png" class="link-card" target="_blank">
+                        <h3>ML webinar</h3>
+                        <p>Click to open ML Webinar certificate.</p>
+                    </a>
+                </div>
+            </section>
+            
+            <section id="contact">
+                <div class="section-label">// CONTACT</div>
+                <h1 class="heading">Contact Me</h1>
+
+                <p class="contact-text">
+                    Email: albinsaji2442@gmail.com <br>
+                    Phone: +91 9895277056 <br>
+                    Location:Pala,kottayam, Kerala, India
+                </p>
+            </section>
+        </div>
     </div>
 
-    <div class="card">
-        <h3>Student Management System</h3>
-        <p>Java mini project to manage student details.</p>
-    </div>
-</section>
-
-<section id="certificates">
-    <h2>Certificates</h2>
-    <p>Add your machine learning, operator and course certificates here.</p>
-</section>
-
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Email: albinsaji2442@gmail.com</p>
-    <p>LinkedIn: linkedin.com/in/albin-saji-273686319</p>
-    <p>GitHub: https://github.com/Alby2442</p>
-
-    <a href="resume.pdf" download>
-        <button>Download Resume</button>
-    </a>
-</section>
-
-</div>
-
-<script src="script.js"></script>
 </body>
 </html>
