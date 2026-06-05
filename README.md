@@ -25,9 +25,16 @@ This is my personal portfolio website developed to showcase my skills, projects,
 
 ## Purpose
 The website serves as my professional portfolio and highlights my development skills and academic projects.
-
 ## Author
+
 Albin Saji
+
+LinkedIn:
+https://www.linkedin.com/in/albin-saji-273686319
+
+GitHub:
+https://github.com/Alby2442
+
 
 ## Live Demo
 https://alby2442.github.io/portfolio/
